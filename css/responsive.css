@@ -4,15 +4,13 @@
   }
 }
 @media (max-width: 1350px) {
-  .wrapper, .hero .wrapper {
+  .wrapper,
+  .hero .wrapper {
     max-width: 1000px;
   }
   nav .leftul li {
     margin-left: 10px;
     margin-right: 10px;
-  }
-  nav .rightul li:first-child {
-    margin-right: 17px;
   }
   .hero {
     min-height: unset;
@@ -26,7 +24,8 @@
   .chooseYourTeam .topBullets li {
     gap: 10px;
   }
-  .chooseYourTeam, .videoSection {
+  .chooseYourTeam,
+  .videoSection {
     padding-bottom: 50px;
   }
   .videoSection ul p {
@@ -45,7 +44,8 @@
   .digitalTech .portfolioWebsite .slick-dots {
     padding-right: 150px;
   }
-  .googleRev .googelSlider p, .googleRev .googelSlider h4 {
+  .googleRev .googelSlider p,
+  .googleRev .googelSlider h4 {
     max-width: 800px;
   }
   footer .links .box {
@@ -70,10 +70,11 @@
   }
 }
 @media (max-width: 1015px) {
-  .wrapper, .hero .wrapper {
+  .wrapper,
+  .hero .wrapper {
     max-width: 700px;
   }
-  nav .leftul, nav .rightul li:first-child {
+  nav .leftul {
     display: none;
   }
   .videoSection .box {
@@ -92,7 +93,8 @@
   .googleRev .topBullets {
     gap: 90px;
   }
-  .googleRev .googelSlider p, .googleRev .googelSlider h4 {
+  .googleRev .googelSlider p,
+  .googleRev .googelSlider h4 {
     max-width: 500px;
     font-size: 15px;
   }
@@ -121,7 +123,8 @@
   nav {
     min-height: 80px;
   }
-  .wrapper, .hero .wrapper {
+  .wrapper,
+  .hero .wrapper {
     max-width: 400px;
   }
   .hero .multi_s {
@@ -140,7 +143,8 @@
   nav .rightul {
     right: 70px;
   }
-  nav .rightul li:nth-child(2), nav .rightul li:nth-child(4) {
+  nav .rightul li:nth-child(1),
+  nav .rightul li:nth-child(3) {
     display: none;
   }
   nav .extendedNav {
@@ -175,10 +179,17 @@
     gap: 20px;
     margin-bottom: 60px;
   }
-  .chooseYourTeam h2, .needTeam h2, .digitalTech h2, .faq h2, .latestNews h2, .doMore h2 {
+  .chooseYourTeam h2,
+  .needTeam h2,
+  .digitalTech h2,
+  .faq h2,
+  .latestNews h2,
+  .doMore h2 {
     font-size: 32px;
   }
-  .chooseYourTeam .yourteamslider .slick-arrow, .digitalTech .portfolioWebsite .slick-arrow, .googleRev .googelSlider .slick-arrow {
+  .chooseYourTeam .yourteamslider .slick-arrow,
+  .digitalTech .portfolioWebsite .slick-arrow,
+  .googleRev .googelSlider .slick-arrow {
     display: none !important;
   }
   .chooseYourTeam .yourteamslider .slick-dots {
@@ -212,7 +223,9 @@
   .chooseYourTeam .yourteamslider .slick-list {
     padding-right: 80px !important;
   }
-  .videoSection, .needTeam, .digitalTech {
+  .videoSection,
+  .needTeam,
+  .digitalTech {
     padding-top: 70px;
   }
   .needTeam ul li {
@@ -267,7 +280,8 @@
   .slick-slide img:first-child {
     max-width: 24px;
   }
-  .googleRev .googelSlider p, .googleRev .googelSlider h4 {
+  .googleRev .googelSlider p,
+  .googleRev .googelSlider h4 {
     font-size: 16px;
   }
   .googleRev .googelSlider .slick-dots {
@@ -288,7 +302,9 @@
   .buildWithUs .unsplash {
     display: none;
   }
-  .faq, .latestNews, .doMore {
+  .faq,
+  .latestNews,
+  .doMore {
     padding-top: 60px;
     padding-bottom: 60px;
   }
